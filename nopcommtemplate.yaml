@@ -1,0 +1,7 @@
+- task: DotNetCoreCLI@1
+  inputs:
+    command: 'restore'
+- task: DotNetCoreCLI@1
+  inputs:
+    command: 'build'
+
