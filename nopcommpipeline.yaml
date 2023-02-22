@@ -1,0 +1,7 @@
+pool:
+  name: Default
+trigger: 
+  - main
+
+steps: 
+  - template: ./nopcommtemplate.yaml
